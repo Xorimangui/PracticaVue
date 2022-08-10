@@ -29,3 +29,18 @@ const heroes = [{
 const { name } = heroes.find((heroe) => heroe.id === 1)
 
 console.log(name)
+
+
+// Misma función: forma tradicional / Arrow function
+
+function contador(number) {
+    return number + 10
+}
+
+console.log(contador(4))
+
+
+
+const contadorFlecha = number => number + 10
+
+console.log(contadorFlecha(4))
