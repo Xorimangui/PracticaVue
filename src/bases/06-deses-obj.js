@@ -23,8 +23,7 @@ const createHero = ({ name, age, codeName, power = 'No tiene poder' }) => {
 
 }
 
-console.log(createHero(person))
-
 //es lo mismo que:
-
 //const createHero = ({ name, age, codeName, power = 'No tiene poder' }) => ({ name, age, codeName, power })
+
+console.log(createHero(person))
